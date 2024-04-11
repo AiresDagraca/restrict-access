@@ -21,6 +21,6 @@ Once installed, the function automatically checks each page request by non-logge
 ## Customizing Redirect URL
 By default, users are redirected to the default WordPress login page. To redirect to a custom login page, replace wp_redirect(wp_login_url()); with the URL of your custom login page, like so:
 
-'''php
+```php
 wp_redirect(home_url('/custom-login/'));
-'''
+```
