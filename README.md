@@ -13,7 +13,7 @@ This WordPress function enhances site security and user experience by restrictin
 1. **Navigate to Your Theme**: Open your WordPress theme directory, located at `/wp-content/themes/your-theme-name/`.
 2. **Edit functions.php**: Add the provided PHP code to your theme's `functions.php` file. If you're using a child theme, ensure you're editing the child theme's `functions.php`.
 
-Replace 'login', 'registration', and 'lostpassword' with the actual slugs of your pages.
+Replace 'login', 'register', and 'lostpassword' with the actual slugs of your pages.
 
 ## Usage
 Once installed, the function automatically checks each page request by non-logged-in users. If the requested page is not in the list of exceptions, the user is redirected to the login page.
